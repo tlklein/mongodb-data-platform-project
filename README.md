@@ -1,4 +1,4 @@
-![banner](https://cdn.prod.website-files.com/60ff451f4874316baf91d00d/640801740194ae4d1c929104_Benefits%20of%20Modern%20Data%20Platform%20-%20Blogpost%20-%201000x500.png)
+![Screenshot 2024-12-24 at 10 24 06 PM](https://github.com/user-attachments/assets/b71af6f2-089b-4e80-9f96-f426f7773ac3)
 
 # MongoDB Data Platform Project
 
@@ -73,6 +73,8 @@ Follow instructions in frontend README for setup and running as a local instance
 ## About the Project
 
 This project was completed collaboratively by **Joanna Macedo**, **Trinity Klein**, and **Maria Abejide** for the **CIS 4339 Enterprise Applications Development** course at the University of Houston under the guidance of **Professor Xuqing Wu**.
+
+
 
 ---
 
