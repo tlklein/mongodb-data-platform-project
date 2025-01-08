@@ -1,4 +1,4 @@
-![Screenshot 2024-12-24 at 10 24 06 PM](https://github.com/user-attachments/assets/b71af6f2-089b-4e80-9f96-f426f7773ac3)
+![Screenshot 2024-12-24 at 10 24 06 PM](398512429-b71af6f2-089b-4e80-9f96-f426f7773ac3.png)
 
 # MongoDB Data Platform Project
 
