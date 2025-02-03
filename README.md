@@ -1,6 +1,6 @@
 ![Screenshot 2024-12-24 at 10 24 06 PM](398512429-b71af6f2-089b-4e80-9f96-f426f7773ac3.png)
 
-# MongoDB Data Platform Project
+# Enterprise Data Platform Project
 
 This is a web application development project completed as part of the CIS 4339 course. The project focuses on enhancing an existing application used by a Houston-area non-profit organization to improve its operations, resource planning, and user experience. The document outlines the steps taken to transition, enhance, and integrate features that improve the application's scalability, maintainability, and user experience.
 
