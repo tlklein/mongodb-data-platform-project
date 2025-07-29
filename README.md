@@ -1,10 +1,10 @@
 ![Screenshot 2024-12-24 at 10 24 06 PM](398512429-b71af6f2-089b-4e80-9f96-f426f7773ac3.png)
 
 # Enterprise Data Platform Project
-The project focuses on enhancing an existing application used by a Houston-area non-profit organization to improve its operations, resource planning, and user experience. The document outlines the steps taken to transition, enhance, and integrate features that improve the application's scalability, maintainability, and user experience.
+This project focuses on enhancing a mock application designed to simulate operations for a Houston-area non-profit organization, demonstrating improvements to resource planning and user experience. The document outlines the steps taken to transition, enhance, and integrate features that showcase the application's scalability, maintainability, and user experience potential.
 
 ## Project Overview
-The application, originally developed by previous students, is a data platform used by Community Health Workers (CHWs) to organize events, collect client data, and facilitate sign-ups for various services. This project expands upon the existing codebase by introducing new features and refining the application for better maintainability and usability. 
+The application, originally developed by previous students as a prototype, is a data platform designed to simulate how Community Health Workers (CHWs) might organize events, collect client data, and facilitate sign-ups for various services. This project expands upon the existing codebase by introducing new features and refining the application to demonstrate better maintainability and usability in a real-world scenario.
 Key technologies: **MEVN Stack** (MongoDB, Express, Vue.js, Node.js).
 
 ## Scope and Features
