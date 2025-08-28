@@ -1,0 +1,58 @@
+// Excercise Part A 
+use emplotees
+show dbs
+
+// Excercise Part B
+use temporary
+db.createCollection('test')
+show dbs
+show collections
+db.dropDatabase('temporary')
+show dbs
+show collections
+use employees
+db.createCollection('IT')
+db.createCollection('HR')
+db.createCollection('Finance')
+show dbs
+show collections
+
+// Excercise Part C 
+use employees
+db.IT.insert({employeeid: 1, name: "John Doe", salary: 50000})
+db.HR.insert({employeeid: 2, name: "Jane Smith", salary: 60000})
+db.Finance.insert({employeeid: 3, name: "Bob Johnson", salary: 70000})
+db.IT.find()
+db.HR.find()
+db.Finance.find()
+
+// Excercise Part D
+db.IT.insert({employeeid: 1187, name: "John Steight", salary: 75000})
+db.IT.insert({employeeid: 2455, name: "Syed", salary: 90000})
+db.IT.insert({employeeid: 24113, name: "Wright John", salary: 65000})
+db.IT.find({employeeid: 1187})
+db.IT.find({employeeid: 2455})
+db.IT.find({name: /^John/})
+db.IT.find({name: /John/})
+db.IT.find({name: "John Steight"})
+db.IT.find({name: "Wright John"})
+
+// Excercise Part E
+mongoimport --db employees --collection zips --file "C:\Users\trini\OneDrive - University Of Houston\Desktop\zips.json"
+use employees
+db.zips.find({pop: {$lt: 1500}})
+db.zips.find({city: "CHESTER"})
+db.zips.find({loc: [-84.38570799999999, 45.015207]})
+db.zips.find({$or: [{city: "WARREN"}, {loc: [-80.76424299999999, 41.231819]}]})
+
+// Exercise Part F
+db.IT.find({$where: "this.salary > 75000"})
+db.IT.find({$where: "this.name.includes('John')"})
+
+// Excercise Part F
+db.IT.find({$where: "this.salary > 75000"})
+db.IT.find({$where: "this.name.includes('John')"})
+
+// Excercise Part G
+db.IT.find({}, {name: 1, salary: 1, _id: 0}) 
+

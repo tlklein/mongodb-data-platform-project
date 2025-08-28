@@ -1,11 +1,9 @@
 ![Screenshot 2024-12-24 at 10 24 06 PM](398512429-b71af6f2-089b-4e80-9f96-f426f7773ac3.png)
 
 # Enterprise Data Platform Project
-This project focuses on enhancing a mock application designed to simulate operations for a Houston-area non-profit organization, demonstrating improvements to resource planning and user experience. The document outlines the steps taken to transition, enhance, and integrate features that showcase the application's scalability, maintainability, and user experience potential.
-
 ## Project Overview
-The application, originally developed by previous students as a prototype, is a data platform designed to simulate how Community Health Workers (CHWs) might organize events, collect client data, and facilitate sign-ups for various services. This project expands upon the existing codebase by introducing new features and refining the application to demonstrate better maintainability and usability in a real-world scenario.
-Key technologies: **MEVN Stack** (MongoDB, Express, Vue.js, Node.js).
+The application, originally developed by previous students as a prototype, is a data platform designed to simulate how Community Health Workers (CHWs) might organize events, collect client data, and facilitate sign-ups for various services. This project expands upon the existing codebase by introducing new features and refining the application to demonstrate better maintainability and usability in a real-world scenario. 
+- Key technologies: **MEVN Stack** (MongoDB, Express, Vue.js, Node.js).
 
 ## Scope and Features
 ### Key Enhancements
@@ -41,9 +39,9 @@ Key technologies: **MEVN Stack** (MongoDB, Express, Vue.js, Node.js).
 
 ## Team Members
 The current iteration is based on development done by:
-* Joanna Macedo, Trinity Klein, and Maria Abejide in Spring 2024
-* Jeremy Griffith and Edwin Charly in Spring of 2023
-* Elliot Farmer Garcia, Agatha	Molski, and Chris Blanco in the Fall of 2022.
+- Joanna Macedo, Trinity Klein, and Maria Abejide in Spring 2024
+- Jeremy Griffith and Edwin Charly in Spring of 2023
+- Elliot Farmer Garcia, Agatha Molski, and Chris Blanco in the Fall of 2022.
   
 ## Getting Started
 ### Data Platform Project Setup
@@ -59,3 +57,9 @@ cd frontend
 ```
 Follow instructions in frontend README for setup and running as a local instance.
 
+## Vue.js Projects
+### Form App: 
+- This project is a simple form application built using **Vue.js**, **HTML**, and **JavaScript**. It allows users to interact with various facilities, toggle items, and calculate a total cost based on user selections. The app also ensures proper currency formatting in USD($).
+
+### MongoDB Exercises
+- This folder contains a series of exercises designed to help users practice basic MongoDB operations such as creating databases, inserting documents, querying collections, and using advanced query operators. The exercises include screenshots and explanations to guide users through each task.
