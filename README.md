@@ -57,6 +57,8 @@ cd frontend
 ```
 Follow instructions in frontend README for setup and running as a local instance.
 
+---
+
 ## Vue.js Projects
 ### Form App: 
 - This project is a simple form application built using **Vue.js**, **HTML**, and **JavaScript**. It allows users to interact with various facilities, toggle items, and calculate a total cost based on user selections. The app also ensures proper currency formatting in USD($).
