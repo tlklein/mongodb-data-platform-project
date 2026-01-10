@@ -1,7 +1,9 @@
 # Backend
+
 This implementation is for NodeJS based on [Express](https://expressjs.com/) and [MongoDB](https://www.mongodb.com/) and uses [mongoose](https://mongoosejs.com/) as the ODM. 
 
 ## Postman Documentation
+
 More details about the API endpoints can be found at <https://documenter.getpostman.com/view/23619637/2sA3JGdiAt>
 
 ## Project setup
@@ -11,6 +13,7 @@ Install all dependencies.
     npm install
 
 ### Before startup
+
 You need to set up a MongoDB database (can be local or remote).
 
 Make sure you have a collection named 'org' in your database that contains at least one organization with the orgid listed in your environment variable (see below).
@@ -44,6 +47,7 @@ Setup a .env file with the following variables: MONGO_URL, PORT, ORG_ID and JWT_
     JWT_SECRET=this can be a randomly generated string. It is used to verify JWT tokens
 
 ### Compiles and hot-reloads for development
+
 To start up the backend for development run:
 
     npm start

@@ -7,6 +7,7 @@ This project uses [VueJS 3](https://vuejs.org/) with [Vite](https://vitejs.dev/)
     npm install
 
 ### Before startup
+
 You need to either have a local backend running or use a cloud-deployed backend.
 
 Setup a .env file with the following variables, e.g.:
@@ -14,6 +15,7 @@ Setup a .env file with the following variables, e.g.:
     VITE_ROOT_API=http://localhost:3000
 
 VITE_ROOT_API is the URL for the backend API, either on localhost or in the cloud.
+
 ### Compiles and hot-reloads for development
 
     npm run dev
