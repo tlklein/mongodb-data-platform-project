@@ -7,15 +7,15 @@
 
 A full-stack data platform (MEVN) that models how Community Health Workers (CHWs) manage events, client data, and service sign-ups. This iteration refactors a prototype into a maintainable, production-minded application with role-based access, dynamic service management, and interactive visualizations.
 
-### Problem
+## Problem
 
 Prototype code lacked maintainability, feature extensibility, and production-ready data flows. The app needed secure user access, dynamic service management, and dashboard analytics to be useful for real-world CHW workflows.
 
-### Solution
+## Solution
 
 Refactored the frontend to **Vue Composition API**, implemented secure authentication and role-based access, converted hardcoded services into CRUD-backed endpoints, and added dashboard visualizations that surface actionable metrics.
 
-### Tech Stack
+## Tech Stack
 
 Frontend
 - Vue.js 3 - Modern reactive UI framework using the Composition API
@@ -38,7 +38,7 @@ Architecture & Practices
 - Modular component and service structure to improve maintainability and extensibility
 
 
-### Result / Key Achievements
+## Result / Key Achievements
 
 - Implemented secure login with role-based UI (Viewer / Editor).  
 - Replaced static service data with full CRUD API and real-time updates.  
@@ -80,7 +80,7 @@ All deliverables can be found in the 'Documentation' Folder. All deliverables ar
 
 ## Project Setup
 
-### Backend (Node/Express)
+### Backend
 ```bash
 cd backend
 # follow backend/README for env vars and run instructions
@@ -88,7 +88,7 @@ npm install
 npm run dev
 ```
 
-### Frontend (Vue 3)
+### Frontend
 ```bash
 cd frontend
 # follow frontend/README for env vars and run instructions
