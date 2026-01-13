@@ -5,15 +5,41 @@
 
 ## Project Overview
 
-A full-stack data platform (MEVN) that models how Community Health Workers (CHWs) manage events, client data, and service sign-ups. This iteration refactors a prototype into a maintainable, production-minded application with role-based access, dynamic service management, and interactive visualizations.
+This project is a full-stack data platform (MEVN) that models how Community Health Workers (CHWs) manage events, client data, and service sign-ups. This iteration refactors a prototype into a maintainable, production-minded application with role-based access, dynamic service management, and interactive visualizations.
 
-### Problem
+This project transformed an academic prototype into a production-ready data platform by addressing maintainability, security, and real-world usability gaps. The frontend was refactored to the Vue Composition API to improve code organization and extensibility, while secure authentication with role-based access control enabled differentiated Viewer and Editor workflows. Static service data was replaced with fully dynamic CRUD-backed APIs, and interactive dashboard visualizations were added to surface actionable client and event metrics. 
 
-Prototype code lacked maintainability, feature extensibility, and production-ready data flows. The app needed secure user access, dynamic service management, and dashboard analytics to be useful for real-world CHW workflows.
+The result is a more maintainable, extensible, and analytics-driven application aligned with real-world Community Health Worker workflows. 
 
-### Solution
+## Team
 
-Refactored the frontend to **Vue Composition API**, implemented secure authentication and role-based access, converted hardcoded services into CRUD-backed endpoints, and added dashboard visualizations that surface actionable metrics.
+- Joanna Macedo - Contributor  
+- Trinity Klein - Contributor  
+- Maria Abejide - Contributor  
+
+(Previous contributors: Jeremy Griffith, Edwin Charly, Elliot Farmer Garcia, Agatha Molski, Chris Blanco)
+
+## Deliverables
+
+All deliverables can be found in the 'Documentation' Folder. All deliverables are completed in the 
+'Functional Specification Document', with a project timeline in the same folder. 
+
+Key sections included are as follows: 
+
+Functional
+- Secure authentication & authorization  
+- CRUD service management APIs  
+- Interactive dashboard visualizations
+
+UI
+- User-friendly login & navigation  
+- Service management pages and responsive chart components
+
+Documentation
+- Use case and user-flow diagrams  
+- Development timeline and milestone notes  
+- Backend & frontend README with run instructions
+
 
 ### Tech Stack
 
@@ -36,47 +62,6 @@ Architecture & Practices
 - RESTful API design with clear separation of frontend and backend concerns
 - Role-based access patterns enforced at the API and UI layers
 - Modular component and service structure to improve maintainability and extensibility
-
-
-### Result / Key Achievements
-
-- Implemented secure login with role-based UI (Viewer / Editor).  
-- Replaced static service data with full CRUD API and real-time updates.  
-- Added dashboard visualizations that expose client distribution and event metrics.  
-- Improved code maintainability and developer ergonomics via Composition API refactor.
-
-## Scope & Features (high-level)
-
-- Auth & Access: Hashed password storage, session handling, and role-based UI control.  
-- Service Management: CRUD endpoints for event services, dynamic front-end forms.  
-- Dashboard: Chart components (Pie/Doughnut) showing client distribution by zip code and other KPIs.  
-- Maintainability: Composition API refactor, modular components, and clearer API contracts.
-
-## Deliverables
-
-Functional
-- Secure authentication & authorization  
-- CRUD service management APIs  
-- Interactive dashboard visualizations
-
-UI
-- User-friendly login & navigation  
-- Service management pages and responsive chart components
-
-Documentation
-- Use case and user-flow diagrams  
-- Development timeline and milestone notes  
-- Backend & frontend README with run instructions
-
-All deliverables can be found in the 'Documentation' Folder. All deliverables are completed in the 'Functional Specification Document', with a project timeline in the same folder. 
-
-## Team
-
-- Joanna Macedo - Contributor  
-- Trinity Klein - Contributor  
-- Maria Abejide - Contributor  
-
-(Previous contributors: Jeremy Griffith, Edwin Charly, Elliot Farmer Garcia, Agatha Molski, Chris Blanco)
 
 ## Project Setup
 
