@@ -1,4 +1,3 @@
-
 # Enterprise Data Platform Project
 
 ![Screenshot 2024-12-24 at 10 24 06 PM](398512429-b71af6f2-089b-4e80-9f96-f426f7773ac3.png)
@@ -11,37 +10,7 @@ This project transformed an academic prototype into a production-ready data plat
 
 The result is a more maintainable, extensible, and analytics-driven application aligned with real-world Community Health Worker workflows. 
 
-## Team
-
-- Joanna Macedo - Contributor  
-- Trinity Klein - Contributor  
-- Maria Abejide - Contributor  
-
-(Previous contributors: Jeremy Griffith, Edwin Charly, Elliot Farmer Garcia, Agatha Molski, Chris Blanco)
-
-## Deliverables
-
-All deliverables can be found in the 'Documentation' Folder. All deliverables are completed in the 
-'Functional Specification Document', with a project timeline in the same folder. 
-
-Key sections included are as follows: 
-
-Functional
-- Secure authentication & authorization  
-- CRUD service management APIs  
-- Interactive dashboard visualizations
-
-UI
-- User-friendly login & navigation  
-- Service management pages and responsive chart components
-
-Documentation
-- Use case and user-flow diagrams  
-- Development timeline and milestone notes  
-- Backend & frontend README with run instructions
-
-
-### Tech Stack
+## Tech Stack
 
 Frontend
 - Vue.js 3 - Modern reactive UI framework using the Composition API
@@ -65,7 +34,7 @@ Architecture & Practices
 
 ## Project Setup
 
-### Backend (Node/Express)
+### Backend
 ```bash
 cd backend
 # follow backend/README for env vars and run instructions
@@ -73,7 +42,7 @@ npm install
 npm run dev
 ```
 
-### Frontend (Vue 3)
+### Frontend
 ```bash
 cd frontend
 # follow frontend/README for env vars and run instructions
