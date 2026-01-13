@@ -32,6 +32,62 @@ Architecture & Practices
 - Role-based access patterns enforced at the API and UI layers
 - Modular component and service structure to improve maintainability and extensibility
 
+## Repo Structure
+```text
+├── backend/                         # Node.js / Express backend (API + auth + data layer)
+│   ├── auth/                        # Authentication & authorization logic
+│   │   └── authMiddleWare.js        # Middleware enforcing authentication and role-based access
+│   ├── models/                     # Database schema definitions
+│   │   └── models.js               # Mongoose models for users, clients, events, services, orgs
+│   ├── routes/                     # REST API route handlers
+│   │   ├── clients.js              # CRUD endpoints for client records
+│   │   ├── events.js               # Event scheduling and management APIs
+│   │   ├── org.js                  # Organization-level configuration and metadata
+│   │   ├── services.js             # Service catalog CRUD endpoints
+│   │   └── users.js                # User management and role handling
+│   ├── app.js                      # Express app entry point and middleware wiring
+│   ├── create_hash.js              # Utility for generating hashed passwords (auth setup)
+│   ├── package.json                # Backend dependencies and scripts
+│   └── README.md                   # Backend-specific documentation
+├── frontend/                       # Vue 3 frontend application
+│   ├── public/                     # Static assets served directly
+│   │   └── favicon.ico             # Application favicon
+│   ├── src/                        # Frontend source code
+│   │   ├── api/                    # API abstraction layer
+│   │   │   └── api.js              # Centralized HTTP client for backend communication
+│   │   ├── assets/                 # Static frontend assets
+│   │   │   └── DanPersona.svg      # Branding / UI illustration asset
+│   │   ├── components/             # Reusable UI components
+│   │   │   ├── barChart.vue        # Dashboard bar chart visualization
+│   │   │   └── donutZipChart.vue   # Donut chart for client distribution metrics
+│   │   ├── router/                 # Client-side routing
+│   │   │   └── index.js            # Vue Router configuration and route guards
+│   │   ├── store/                  # State management (Pinia)
+│   │   │   └── loggedInUser.js     # Authenticated user state and role context
+│   │   ├── views/                  # Page-level components (routes)
+│   │   │   ├── clientdetails.vue   # Client detail view
+│   │   │   ├── clientform.vue      # Create/edit client workflow
+│   │   │   ├── ConfirmationDialog.vue # Reusable confirmation modal
+│   │   │   ├── eventDetials.vue    # Event detail view
+│   │   │   ├── eventform.vue       # Create/edit event workflow
+│   │   │   ├── findclient.vue      # Client search and discovery
+│   │   │   ├── findevents.vue      # Event search and filtering
+│   │   │   ├── findservice.vue     # Service lookup interface
+│   │   │   ├── home.vue            # Dashboard / landing page
+│   │   │   ├── login.vue           # Authentication entry point
+│   │   │   ├── servicedetails.vue  # Service detail view
+│   │   │   └── serviceform.vue     # Create/edit service workflow
+│   ├── App.vue                     # Root Vue component
+│   ├── index.css                   # Global styles (Tailwind base/custom overrides)
+│   └── README.md                   # Frontend-specific documentation
+├── documentation/                  # Project documentation and planning artifacts
+│   ├── Functional Specification Document.pdf  # Formal functional requirements
+│   └── Project_Timeline_Group_8.xlsx           # Project timeline and milestone tracking
+├── 398512429-b71af6f2-089b-4e80-9f96-f426f7773ac3.png  # Architecture/UI reference image
+├── package-lock.json               # Dependency lockfile (root)
+├── package.json                    # Root-level scripts and shared tooling
+```
+
 ## Project Setup
 
 ### Backend
