@@ -34,9 +34,9 @@ Architecture & Practices
 
 ## Repo Structure
 ```text
-├── backend/                         # Node.js / Express backend (API + auth + data layer)
-│   ├── auth/                        # Authentication & authorization logic
-│   │   └── authMiddleWare.js        # Middleware enforcing authentication and role-based access
+├── backend/                        # Node.js / Express backend (API + auth + data layer)
+│   ├── auth/                       # Authentication & authorization logic
+│   │   └── authMiddleWare.js       # Middleware enforcing authentication and role-based access
 │   ├── models/                     # Database schema definitions
 │   │   └── models.js               # Mongoose models for users, clients, events, services, orgs
 │   ├── routes/                     # REST API route handlers
@@ -82,7 +82,7 @@ Architecture & Practices
 │   └── README.md                   # Frontend-specific documentation
 ├── documentation/                  # Project documentation and planning artifacts
 │   ├── Functional Specification Document.pdf  # Formal functional requirements
-│   └── Project_Timeline_Group_8.xlsx           # Project timeline and milestone tracking
+│   └── Project_Timeline_Group_8.xlsx          # Project timeline and milestone tracking
 ├── 398512429-b71af6f2-089b-4e80-9f96-f426f7773ac3.png  # Architecture/UI reference image
 ├── package-lock.json               # Dependency lockfile (root)
 ├── package.json                    # Root-level scripts and shared tooling
