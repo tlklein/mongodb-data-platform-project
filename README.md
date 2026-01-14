@@ -86,6 +86,7 @@ Architecture & Practices
 ├── 398512429-b71af6f2-089b-4e80-9f96-f426f7773ac3.png  # Architecture/UI reference image
 ├── package-lock.json               # Dependency lockfile (root)
 ├── package.json                    # Root-level scripts and shared tooling
+└── README.md                       # Project summary         
 ```
 
 ## Project Setup
